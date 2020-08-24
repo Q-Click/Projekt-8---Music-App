@@ -1,8 +1,8 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "npm run pre-packager && node node_modules/react-native/local-cli/cli.js start",
-    "pre-packager": "./scripts/script-to-run-before-RN-build.sh",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
